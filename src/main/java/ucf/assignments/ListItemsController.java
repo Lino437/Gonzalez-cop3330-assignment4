@@ -46,7 +46,7 @@ public class ListItemsController {
     }
 
     @FXML
-    public void editDueDateButtonClicked(ActionEvent actionEvent) {'
+    public void editDueDateButtonClicked(ActionEvent actionEvent) {
         // ask user with item to edit
         // allow user to overwrite item due date
     }
@@ -61,7 +61,7 @@ public class ListItemsController {
     public void displayCompletedClicked(ActionEvent actionEvent) {
         // check database for completed item
         // display only those that meet the display criteria
-]    }
+    }
 
     @FXML
     public void displayUncompletedClicked(ActionEvent actionEvent) {
