@@ -14,25 +14,35 @@ import javafx.scene.input.ContextMenuEvent;
 public class TodoController {
     @FXML
     public void addButtonClicked(ActionEvent actionEvent) {
-        // get value added from user
-        // include to database
+        // prompt user for description of task
+        // prompt  user for due date
+        // store information in database as an item of the list
     }
 
     @FXML
     public void removeButtonClicked(ActionEvent actionEvent) {
-        // lookup for value enter by the user
-        //
+        // get list of items
+        // prompt the user from a number of items which to delete
+        // delete item from database
     }
 
     @FXML
     public void editButtonClicked(ActionEvent actionEvent) {
+        // ask user with item to edit
+        // allow user to overwrite item description
     }
 
     @FXML
     public void saveButtonClicked(ActionEvent actionEvent) {
+        // prompt the user for a list
+        // save the selected list from the user
     }
 
     @FXML
     public void loadButtonClicked(ActionEvent actionEvent) {
+        // prompt the user for a list
+        // lookup for list in storage
+        // load the selected list
+        // display to screen
     }
 }
